@@ -15,7 +15,7 @@ This Project helps developer to read data from credit card: card number, expired
 </p>
 
 <b>Play Store Link</b>
-https://play.google.com/store/apps/details?id=com.peerbits.nfccardread
+<a href="https://play.google.com/store/apps/details?id=com.peerbits.nfccardread">https://play.google.com/store/apps/details?id=com.peerbits.nfccardread</a>
 
 
 
