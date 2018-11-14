@@ -8,12 +8,12 @@ This Project helps developer to read data from credit card: card number, expired
  
 <b>Screenshots</b>
 
-<img src="https://image.ibb.co/jqe3fL/1-1.png" alt="1-1" border="0"  width="200" height="350">
-<a href="https://ibb.co/n3P3fL"><img src="https://image.ibb.co/cQhpLL/1-2.png" alt="1-2" border="0"></a>
-<a href="https://ibb.co/fG0b0L"><img src="https://image.ibb.co/cfxdEf/1-3.png" alt="1-3" border="0"></a>
-<a href="https://ibb.co/gHx0S0"><img src="https://image.ibb.co/j7hBZf/1-5.png" alt="1-5" border="0"></a>
-<a href="https://ibb.co/cKJkuf"><img src="https://image.ibb.co/fXCpLL/1-10.png" alt="1-10" border="0"></a>
-<a href="https://ibb.co/drwun0"><img src="https://image.ibb.co/bZmG0L/1-12.png" alt="1-12" border="0"></a>
+<img src="https://image.ibb.co/jqe3fL/1-1.png" alt="1-1" border="0"  width="200" height="350"/>
+<img src="https://image.ibb.co/cQhpLL/1-2.png" alt="1-2" border="0"  width="200" height="350"/>
+<img src="https://image.ibb.co/cfxdEf/1-3.png" alt="1-3" border="0"  width="200" height="350"/>
+<img src="https://image.ibb.co/j7hBZf/1-5.png" alt="1-5" border="0"  width="200" height="350"/>
+<img src="https://image.ibb.co/fXCpLL/1-10.png" alt="1-10" border="0" width="200" height="350"/>
+<img src="https://image.ibb.co/bZmG0L/1-12.png" alt="1-12" border="0" width="200" height="350"/>
 
 <br><br>
 <b>Play Store Link</b>
