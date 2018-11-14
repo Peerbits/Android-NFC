@@ -3,7 +3,7 @@
 This Project helps developer to read data from credit card: card number, expired date, card type , Read & Write data in NFC tocken.<br>
 
 1.[Screenshots](#screenshots) <br>
-2. [PlayStoreLink] (#storelink)<br>
+2. [PlayStoreLink](#storelink) <br>
 3. [License](#license) <br>
  
 <b>Screenshots</b>
