@@ -1,4 +1,4 @@
-# NFC Token & Credit Card NFC reader 
+# NFC Token & Credit Card reader 
 
 This Project helps developer to read data from credit card: card number, expired date, card type , Read & Write data in NFC tocken.<br>
 
