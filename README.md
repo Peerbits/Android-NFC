@@ -3,7 +3,7 @@
 This Project helps developer to read data from credit card: card number, expired date, card type , Read & Write data in NFC tocken.<br>
 
 1.[Screenshots](#screenshots) <br>
-2. [Play Store Link] (#Play Store Link)<br>
+2. [PlayStoreLink] (#storelink)<br>
 3. [License](#license) <br>
  
 <b>Screenshots</b>
@@ -16,7 +16,7 @@ This Project helps developer to read data from credit card: card number, expired
 <img src="https://image.ibb.co/bZmG0L/1-12.png" alt="1-12" border="0" width="200" height="350"/>
 </p>
 <br><br>
-<b>Play Store Link</b>
+<b>PlayStoreLink</b>
 <a href="https://play.google.com/store/apps/details?id=com.peerbits.nfccardread" target="_blank">https://play.google.com/store/apps/details?id=com.peerbits.nfccardread</a>
 
 
