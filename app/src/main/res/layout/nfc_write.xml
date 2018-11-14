@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8180FD">
+
+    <RelativeLayout
+        android:id="@+id/rlBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/_15sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_back"
+            android:contentDescription="@string/str_todo"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_write_with_nfc"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_20sdp"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlBack"
+        android:text="@string/str_tap_your_nfc_tag_on_mobile_to_read"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:maxLines="1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/_10sdp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imgWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvText"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:src="@drawable/gif_write"/>
+
+    <EditText
+        android:id="@+id/evTagMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_below="@+id/imgWrite"
+        android:inputType="text" />
+
+</RelativeLayout>

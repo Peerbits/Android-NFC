@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_splash"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/str_todo" />
+    <ImageView
+        android:id="@+id/ivHomeicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/str_nfc_homepage"/>
+
+    <LinearLayout
+        android:id="@+id/llBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivHomeicon"
+        android:padding="20dp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rlReadNFCTAG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/bg_home">
+
+        <ImageView
+            android:id="@+id/ivReadNfc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_read_nfc"
+            android:contentDescription="@string/str_todo" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ivReadNfc"
+            android:layout_toEndOf="@+id/ivReadNfc"
+            android:layout_marginStart="10dp">
+            <TextView
+                android:id="@+id/tvReadWithNfc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_read_with_nfc"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                android:layout_marginStart="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvReadWithNfc"
+                android:layout_marginLeft="10dp"
+                android:text="@string/str_nfc_read_text"
+                android:textColor="#60ffffff"
+                android:textSize="18sp"
+                android:layout_marginStart="10dp" />
+
+        </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlWriteWithNFC"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_home">
+
+
+            <ImageView
+                android:id="@+id/ivWriteNFC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_write_nfc"
+                android:contentDescription="@string/str_todo" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/ivWriteNFC"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/ivWriteNFC">
+                <TextView
+                    android:id="@+id/tvWriteWithNfc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_Write_with_nfc"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp"
+                    android:layout_marginStart="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvWriteWithNfc"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/str_nfc_write_text"
+                    android:textColor="#60ffffff"
+                    android:textSize="18sp"
+                    android:layout_marginStart="10dp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlCreditCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_home">
+
+
+            <ImageView
+                android:id="@+id/ivCreditCardNfc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_read_nfc"
+                android:contentDescription="@string/str_todo" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/ivCreditCardNfc"
+                android:layout_toEndOf="@+id/ivCreditCardNfc"
+                android:layout_marginStart="10dp">
+                <TextView
+                    android:id="@+id/tvCreditCardNfc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_Scan_with_nfc"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp"
+                    android:layout_marginStart="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvCreditCardNfc"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/str_Credit_Card_text"
+                    android:textColor="#60ffffff"
+                    android:textSize="18sp"
+                    android:layout_marginStart="10dp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

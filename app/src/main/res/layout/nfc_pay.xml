@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash">
+
+
+
+    <RelativeLayout
+        android:id="@+id/rlBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp">
+
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/_15sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_back"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/str_todo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_payment"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_20sdp"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card"
+        android:layout_below="@+id/rlBack"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        >
+
+    <RelativeLayout
+        android:id="@+id/rlChip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_card_chip"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:contentDescription="@string/str_todo"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:id="@+id/ivCardIcon"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/visa_logo"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:contentDescription="@string/str_todo"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tvText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:text="@string/str_card_number"
+        android:textColor="#A4A7B6"
+        android:layout_below="@+id/rlChip"
+        android:textSize="@dimen/_18sdp"
+        android:layout_marginStart="@dimen/_10sdp" />
+
+     <TextView
+            android:id="@+id/tvCardNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvText1"
+            android:text="@string/str_xxxx_xxxx_xxxx_4444"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_18sdp"
+            android:textColor="@android:color/holo_blue_light"
+         android:layout_marginStart="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/tvText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:text="@string/str_expiry"
+            android:textColor="#A4A7B6"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_below="@+id/tvCardNumber"
+            android:textSize="@dimen/_18sdp"
+            android:layout_marginStart="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/tvEXPDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvText2"
+            android:text="@string/str_02_18"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_18sdp"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_marginStart="@dimen/_10sdp" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:textSize="@dimen/_22sdp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/holo_blue_light"
+        android:background="@drawable/button_background"
+        android:text="@string/str_paynow"/>
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rlBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:padding="15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_back"
+            android:contentDescription="@string/str_todo"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_read_with_nfc_card_t"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlBack"
+        android:text="@string/str_ttap_your_credit_card_on_mobile_to_read"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:maxLines="1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginStart="10dp" />
+
+<RelativeLayout
+    android:id="@+id/rlGif"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/llText"
+    android:layout_below="@+id/tvText">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imgRead"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gif_card"/>
+
+
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNFCMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:text="@string/str_scanning"
+            />
+
+        <com.bhargavms.dotloader.DotLoader
+            android:id="@+id/text_dot_loader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:color_array="@array/dot_colors"
+            app:dot_radius="3dp"
+            android:layout_gravity="bottom"
+            app:number_of_dots="4"/>
+    </LinearLayout>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imgRight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/gif_sucess"/>
+
+</RelativeLayout>
